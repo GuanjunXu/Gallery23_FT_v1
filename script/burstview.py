@@ -39,6 +39,7 @@ class GalleryTest(unittest.TestCase):
         u._clearAllResource()
         u._checkBurstResource()
         u.launchGallery()
+        u.selectFilter('Camera Roll')
         self._enterBurstView()
 
 
